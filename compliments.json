@@ -1,0 +1,100 @@
+compliments: {
+        			anytime: [
+          				"Hey there sexy!",
+						"Looking good today!",
+						"You look nice!",
+						"Hitting your stride!",
+    					"You are making a difference!",
+    					"You're more fun than bubble wrap!"
+        			],
+        			morning: [
+          				"Good morning, handsome!",
+          				"Enjoy your day!",
+          				"How was your sleep?",
+						"Good morning, sunshine!",
+    					"Who needs coffee when you have your smile?",
+    					"Go get 'em, Tiger!"
+        			],
+        			afternoon: [
+          				"Hello, beauty!",
+          				"You look sexy!",
+          				"Looking good today!"
+        			],
+        			evening: [
+          				"Wow, you look hot!",
+          				"You look nice!",
+          				"Hi, sexy!",
+						"You made someone smile today, I know it.",
+   						"You are making a difference.",
+    					"The day was better for your efforts."
+        			],
+					day_sunny: [
+          				"Today is a sunny day",
+          				"It's a beautiful day"
+        			],
+        			snow: [
+          				"Snowball battle!"
+        			],
+        			rain: [
+          				"Don't forget your umbrella"
+        			],
+					day_cloudy: [
+				  		"Cloudy with a chance of meatballs"
+					],
+					cloudy: [
+						"It's a gloomy day"
+					],
+					cloudy_windy: [
+						"Today is a cloudy and windy day",
+						"It's a gloomy and windy day"
+					],
+					showers: [
+						"Today is a rainy day",
+						"It's a gloomy day"
+					],
+					rain: [
+						"Don't forget your umbrella"
+					],
+					thunderstorm: [
+						"Looks like it's going to rain"
+					],
+					snow: [
+						"Snowball battle!"
+					],
+					fog: [
+						"It's a foggy day"
+					],
+					night_clear: [
+						"Clear night sky"
+					],
+					night_cloudy: [
+						"Cloudy night"
+					],
+					night_showers: [
+						"Showers tonight"
+					],
+					night_rain: [
+						"Rainy night"
+					],
+					night_thunderstorm: [
+						"Thunderstorm tonight"
+					],
+					night_snow: [
+						"Snowy night"
+					],
+					night_alt_cloudy_windy: [
+						"Cloudy and windy night"
+					],
+        			"....-01-01": [
+          				"Happy new year!"
+        			],
+					"....-10-31": [
+          				"Happy Halloween!"
+					],
+					"48-50 16-18 * * 5,6": [
+          				"Happy Hour!", "Its a Party"
+        			],
+					"* 20-21 31 10 *": [
+               			"Boo!!"
+            		],
+    			},
