@@ -228,7 +228,7 @@ let config = {
     			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
     			speed: 10000,
     			stackSize: 3,
-				photoWidth: 550,
+				photoWidth: 500,
 				flyInDuration: 1500,
 				flyOutDuration: 1500,
 				backgroundColor: "Transparent"
