@@ -88,5 +88,17 @@
   ],
   "* 20-21 31 10 *": [
     "Boo!!"
+  ],
+  "....-02-14": [
+    "Happy Valentine's Day!"
+  ],
+  "....-07-04": [
+    "Happy Independence Day!"
+  ],
+  "....-12-25": [
+    "Merry Christmas!"
+  ],
+  "0 18 * * 5": [
+    "Weekend starts now!"
   ]
 }
