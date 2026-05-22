@@ -49,14 +49,12 @@ let config = {
         		latitude: "40.657884",  // Longitude from https://www.latlong.net/
         		longitude: "-73.952641", // Longitude from https://www.latlong.net/
         		apikey: "a222ad935440c2e8cec301bd782b2d4e", // openweathermap.org API key
-        		/*
 				iconset: "9a",          // Icon set to use.
         		iconsetFormat: "svg",   // File format of the icons.
 				units: "imperial",
 				windUnits: "mph",
 				forecastLayout: "columns",
 				arrangement: "horizontal" 
-				*/
       		}
     	},
 		{
@@ -229,9 +227,9 @@ let config = {
     			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
     			speed: 10000,
     			stackSize: 3,
-				photoWidth: 500,
-				flyInDuration: 1000,
-				flyOutDuration: 50,
+				photoWidth: 600,
+				flyInDuration: 1500,
+				flyOutDuration: 1500,
 				backgroundColor: "Transparent"
 			}
 		},
