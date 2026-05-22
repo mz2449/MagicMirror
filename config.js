@@ -43,7 +43,7 @@ let config = {
 		},
 		{
       		module: "MMM-OneCallWeather",
-      		position: "lower_third",
+      		position: "middle_third",
       		header: "Weather: Brooklyn, NY",
       		config: {
         		latitude: "40.657884",  // Longitude from https://www.latlong.net/
@@ -182,8 +182,8 @@ let config = {
     			instanceId: "michaelCalendar",
     			locale: 'en-US',
     			firstDayOfWeek: 1,
-    			startDayIndex: 0,
-    			endDayIndex: 2,
+    			startDayIndex: -1,
+    			endDayIndex: 3,
     			calendarSet: ["Michael1", "Michael2", "Michael3", "Michael4", "Michael5", "Michael6", "Michael7"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
 		},
@@ -195,8 +195,8 @@ let config = {
     			instanceId: "graceCalendar",
     			locale: 'en-US',
     			firstDayOfWeek: 1,
-    			startDayIndex: 0,
-    			endDayIndex: 2,
+    			startDayIndex: -1,
+    			endDayIndex: 3,
     			calendarSet: ["Grace1", "Grace2", "Grace3"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
 		},
@@ -228,7 +228,7 @@ let config = {
     			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
     			speed: 10000,
     			stackSize: 3,
-				photoWidth: 650,
+				photoWidth: 550,
 				flyInDuration: 1500,
 				flyOutDuration: 1500,
 				backgroundColor: "Transparent"
