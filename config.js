@@ -41,6 +41,19 @@ let config = {
 		{
 			module: "alert",
 		},
+				{
+			module: "MMM-PhotoStack",
+  			position: "upper_third",
+  			config: {
+    			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
+    			speed: 10000,
+    			stackSize: 3,
+				photoWidth: 600,
+				flyInDuration: 1200,
+				flyOutDuration: 600,
+				backgroundColor: "Transparent"
+			}
+		},
 		{
       		module: "MMM-OneCallWeather",
       		position: "middle_center",
@@ -182,7 +195,7 @@ let config = {
     			instanceId: "michaelCalendar",
     			locale: 'en-US',
     			firstDayOfWeek: 1,
-    			startDayIndex: -1,
+    			startDayIndex: 0,
     			endDayIndex: 3,
     			calendarSet: ["Michael1", "Michael2", "Michael3", "Michael4", "Michael5", "Michael6", "Michael7"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
@@ -195,7 +208,7 @@ let config = {
     			instanceId: "graceCalendar",
     			locale: 'en-US',
     			firstDayOfWeek: 1,
-    			startDayIndex: -1,
+    			startDayIndex: 0,
     			endDayIndex: 3,
     			calendarSet: ["Grace1", "Grace2", "Grace3"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
@@ -221,19 +234,6 @@ let config = {
 				]
     		}
   		},
-		{
-			module: "MMM-PhotoStack",
-  			position: "upper_third",
-  			config: {
-    			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
-    			speed: 10000,
-    			stackSize: 3,
-				photoWidth: 500,
-				flyInDuration: 1500,
-				flyOutDuration: 1500,
-				backgroundColor: "Transparent"
-			}
-		},
 		{
 			module: "updatenotification",
 			position: "top_bar"
