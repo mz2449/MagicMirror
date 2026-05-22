@@ -228,7 +228,7 @@ let config = {
     			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
     			speed: 10000,
     			stackSize: 3,
-				photoWidth: 700,
+				photoWidth: 650,
 				flyInDuration: 1500,
 				flyOutDuration: 1500,
 				backgroundColor: "Transparent"
@@ -273,8 +273,9 @@ let config = {
       		position: "top_bar", // This can be any of the regions.
       		// Best results in one of the middle regions like: lower_third
       		config: {
-				remoteFile: "https://raw.githubusercontent.com/mz2449/MagicMirror/refs/heads/main/compliments.json"
-    		},
+				remoteFile: "https://raw.githubusercontent.com/mz2449/MagicMirror/refs/heads/main/compliments.json",
+				specialDayUnique: true
+			},
 		},
 		{
      		module: "weather",
