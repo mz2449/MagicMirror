@@ -54,7 +54,8 @@ let config = {
 				units: "imperial",
 				windUnits: "mph",
 				forecastLayout: "columns",
-				arrangement: "horizontal" 
+				arrangement: "horizontal",
+				updateInterval: 150000
       		}
     	},
 		{
@@ -272,7 +273,7 @@ let config = {
       		position: "top_bar", // This can be any of the regions.
       		// Best results in one of the middle regions like: lower_third
       		config: {
-				remoteFile: "https://github.com/mz2449/MagicMirror/blob/main/compliments.json"
+				remoteFile: "https://raw.githubusercontent.com/mz2449/MagicMirror/refs/heads/main/compliments.json"
     		},
 		},
 		{
