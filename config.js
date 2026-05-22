@@ -43,7 +43,7 @@ let config = {
 		},
 		{
       		module: "MMM-OneCallWeather",
-      		position: "middle_center",
+      		position: "lower_third",
       		header: "Weather: Brooklyn, NY",
       		config: {
         		latitude: "40.657884",  // Longitude from https://www.latlong.net/
@@ -228,7 +228,7 @@ let config = {
     			imagePaths: ["/home/michael/Pictures/MagicMirrorPictures"],
     			speed: 10000,
     			stackSize: 3,
-				photoWidth: 600,
+				photoWidth: 700,
 				flyInDuration: 1500,
 				flyOutDuration: 1500,
 				backgroundColor: "Transparent"
