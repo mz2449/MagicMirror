@@ -274,6 +274,7 @@ let config = {
       		// Best results in one of the middle regions like: lower_third
       		config: {
 				remoteFile: "https://raw.githubusercontent.com/mz2449/MagicMirror/refs/heads/main/compliments.json",
+				remoteFileRefreshInterval: 3600000, // Refresh compliments.json every hour
 				specialDayUnique: true
 			},
 		},
