@@ -43,7 +43,7 @@ let config = {
 		},
 		{
       		module: "MMM-OneCallWeather",
-      		position: "middle_third",
+      		position: "middle_center",
       		header: "Weather: Brooklyn, NY",
       		config: {
         		latitude: "40.657884",  // Longitude from https://www.latlong.net/
