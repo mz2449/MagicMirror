@@ -51,7 +51,8 @@ let config = {
 				photoWidth: 600,
 				flyInDuration: 1200,
 				flyOutDuration: 600,
-				backgroundColor: "Transparent"
+				backgroundColor: "Transparent",
+				rescanInterval: 3600000 // Rescan the image folder every hour
 			}
 		},
 		{
