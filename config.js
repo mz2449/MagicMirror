@@ -291,10 +291,10 @@ let config = {
     		config: { // See "Configuration options" for more information.
       			longitude: -73.952641,
       			latitude: 40.657884,
-      			maxDim: 0.9,
-      			transitionDuration: 15 * 60 * 1000, // 15 minutes (in ms)
-				sunriseTransitionOffset: -7.5 * 60 * 1000, // begin 7.5 minutes before sunrise
-				sunsetTransitionOffset: -7.5 * 60 * 1000, // begin  7.5 minutes before sunset
+      			maxDim: 0.75,
+      			transitionDuration: 1 * 60 * 60 * 1000, // in ms
+				sunriseTransitionOffset: 0, 
+				sunsetTransitionOffset: 0
 			}
 		}
 	]
