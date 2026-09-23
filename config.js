@@ -197,7 +197,7 @@ let config = {
     			locale: 'en-US',
     			firstDayOfWeek: 1,
     			startDayIndex: 0,
-    			endDayIndex: 2,
+    			endDayIndex: 1,
     			calendarSet: ["Michael1", "Michael2", "Michael3", "Michael4", "Michael5", "Michael6", "Michael7"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
 		},
@@ -210,7 +210,7 @@ let config = {
     			locale: 'en-US',
     			firstDayOfWeek: 1,
     			startDayIndex: 0,
-    			endDayIndex: 2,
+    			endDayIndex: 1,
     			calendarSet: ["Grace1", "Grace2", "Grace3"], // <-- specify calendar name to display, if you want to display all calendar, just set as `calendarSet:[]`
   			}
 		},
